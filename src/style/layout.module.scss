@@ -1,0 +1,40 @@
+$font-stack: Helvetica,
+sans-serif;
+$primary-color: #333;
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    background-color: cadetblue;
+}
+
+li {
+    margin: 0.5rem 0;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+
+a:active,
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+.hero {
+    background-color: $primary-color;
+    color: red;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}

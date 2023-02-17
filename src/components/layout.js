@@ -1,12 +1,15 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
+
+import { hero, navLinks } from '../style/layout.module.scss'
 
 const Layout = ({ pageTitle, pageHeading, children }) => {
 
     return (
-        <main>
+        <main className={hero}>
             <title>{pageTitle}</title>
-                <nav>
+                <nav className={navLinks}>
                     <ul>
                         <li>
                             <Link to="/">Home</Link>
@@ -23,3 +26,9 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
 }
 
 export default Layout
+
+Layout.propTypes = {
+    pageTitle: PropTypes.string,
+    pageHeading: PropTypes.string,
+    children: PropTypes.node,
+}
