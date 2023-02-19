@@ -7,9 +7,9 @@ import Footer from './Footer'
 const Layout = ({ pageTitle, pageHeading, children }) => {
 
     return (
-        <main className="layout bgFade">
+        <main className="layout mb-6">
             <div className="headerTitle mt-6 ml-6">
-                <h2 className="has-text-weight-bold">longlost: a terrible inconvenience</h2>
+                <h2 className="has-text-weight-bold">longlost: the terrible inconvenience of</h2>
             </div>
             <section className="box mx-6 bg-s">
                 <div className="mb-4">
@@ -26,11 +26,11 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
                 <div className="mb-4">
                     <h3 className="has-text-weight-bold">° Current listening material</h3>
                         <ul>
-                            <li>1. <a href="/#">Below The Sea</a> - Les Arbres Dèpayseront Davantage : <a href="/#">Where Are My Records</a></li>
-                            <li>2. <a href="/#">Evil Pupil</a> - Gallons of Void : <a href="/#">Cyclop Media</a></li>
-                            <li>3. <a href="/#">The Dead Texan</a> - The Dead Texan : <a href="/#">Kranky Records</a></li>
-                            <li>4. <a href="/#">Maximillian Colby</a> -Discography : <a href="/#">Lovitt Records</a></li>
-                            <li>5. <a href="/#">Rothko</a> - A Negative For Francis: <a href="/#">Lo Recordings</a></li>
+                            <li>1. <a href="https://belowthesea.bandcamp.com/" target="_blank">Below The Sea</a> - Les Arbres Dèpayseront Davantage : <a href="https://wherearemyrecords.bandcamp.com/album/les-arbres-d-payseront-davatage" target="_blank">Where Are My Records</a></li>
+                            <li>2. <a href="https://evilpupil.bandcamp.com/album/gallons-of-void" target="_blank">Evil Pupil</a> - Gallons of Void : <a href="https://www.discogs.com/label/43004-Cyclop-Media" target="_blank">Cyclop Media</a></li>
+                            <li>3. <a href="https://starsofthelid.bandcamp.com/album/the-dead-texan" target="_blank">The Dead Texan</a> - The Dead Texan : <a href="https://kranky.bandcamp.com/" target="_blank">Kranky Records</a></li>
+                            <li>4. <a href="https://maximilliancolby.bandcamp.com/album/discography" target="_blank">Maximillian Colby</a> -Discography : <a href="https://lovitt.bandcamp.com/" target="_blank">Lovitt Records</a></li>
+                            <li>5. <a href="https://lorecordings.bandcamp.com/album/a-negative-for-francis-lo12" target="_blank">Rothko</a> - A Negative For Francis : <a href="https://lorecordings.bandcamp.com/music" target="_blank">Lo Recordings</a></li>
                         </ul>
                 </div>
                 <div className="mb-4">
