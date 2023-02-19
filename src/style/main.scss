@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import "~bulma/bulma.sass";
+
+$font-family: Verdana,Geneva,sans-serif;
+$primary-color: #333333;
+$secondary-color: #990000;
+$copy-color: #000000;
+$bg-primary: #a09d58;
+$bg-secondary: #ffffcc;
+
+html, body {
+    background-color: $bg-primary;
+    background-image: url('../images/root.png');
+    background-repeat: no-repeat;
+    background-size: 75%;
+}
+.layout {
+    nav li {
+        display: inline;
+        padding: 0 1em;
+    }
+
+    img {
+        display: inline-block;
+    }
+
+    .bg-s {
+        background-color: $bg-secondary;
+    }
+
+}
