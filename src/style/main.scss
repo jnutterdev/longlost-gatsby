@@ -9,11 +9,11 @@ $bg-primary: #a09d58;
 $bg-secondary: #ffffcc;
 
 html, body {
+    font-family: $font-family;
     background-color: $bg-primary;
     background-image: url('../images/root.png');
     background-repeat: no-repeat;
     background-size: 80%;
-    font-family: $font-family;
 }
 
 .layout {
@@ -33,6 +33,13 @@ html, body {
     img {
         display: inline-block;
         margin: 1em;
+    }
+    .headerTitle {
+        margin: 85px 100px 0px 100px;
+        color: $primary-color;
+    }
+    .headerTitle h2 {
+        font-size: 24px;
     }
     .bg-s {
         background-color: $bg-secondary;

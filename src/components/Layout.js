@@ -7,15 +7,17 @@ import Footer from './Footer'
 const Layout = ({ pageTitle, pageHeading, children }) => {
 
     return (
-        <main className="layout">
-            <h2 className="has-text-weight-bold ml-6">longlost: a terrible inconvenience</h2>
-            <section className="box m-6 bg-s">
+        <main className="layout bgFade">
+            <div className="headerTitle mt-6 ml-6">
+                <h2 className="has-text-weight-bold">longlost: a terrible inconvenience</h2>
+            </div>
+            <section className="box mx-6 bg-s">
                 <div className="mb-4">
                     <date className="mb-3">02.17.23</date>
                 </div>
                 <div className="mb-4">
                     <h3 className="has-text-weight-bold">° Currently reading</h3>
-                        <p>I've been pretty busy as of late, so I haven't had much time to do leisurely activities. But, I have kept myself laughing at these  sites:</p>
+                        <p className="">I've been pretty busy as of late, so I haven't had much time to do leisurely activities. But, I have kept myself laughing at these  sites:</p>
                     <ul>
                         <li><a href="/#">Diesel Sweeties</a></li>
                         <li><a href="/#">Penny Arcade</a></li>
