@@ -3,7 +3,7 @@ import Nav from './Nav'
 
 export default function footer() {
   return (
-    <footer>
+    <footer className='mb-4'>
         <Nav></Nav>
         <div className="has-text-centered">
           <p>© Copyright 2004-2023. longlostforgotten.com by John Nutter. All rights reserved.</p>

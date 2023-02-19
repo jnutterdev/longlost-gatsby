@@ -12,18 +12,28 @@ html, body {
     background-color: $bg-primary;
     background-image: url('../images/root.png');
     background-repeat: no-repeat;
-    background-size: 75%;
+    background-size: 80%;
+    font-family: $font-family;
 }
+
 .layout {
+    a, date {
+        color: $secondary-color;
+    }
     nav li {
         display: inline;
         padding: 0 1em;
     }
-
+    nav li:nth-child(1) {
+        border-right: 1px solid $primary-color;
+    }
+    section {
+        border: 1px dashed $primary-color;
+    }
     img {
         display: inline-block;
+        margin: 1em;
     }
-
     .bg-s {
         background-color: $bg-secondary;
     }
